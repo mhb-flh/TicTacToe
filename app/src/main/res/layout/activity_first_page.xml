@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/blue"
+    android:weightSum="1"
+    tools:context=".firstPage">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:padding="10dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/tic"/>
+
+    <Button
+        android:id="@+id/singlePlayer"
+        android:text="@string/single_player"
+        android:layout_width="220dp"
+        android:padding="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/Accent"
+        android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/twoPlayer"
+            android:text="@string/two_player"
+            android:layout_width="220dp"
+            android:padding="5dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/Accent"
+            android:layout_height="0dp"
+            android:layout_weight=".1"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
